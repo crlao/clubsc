@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clubsc/static/css/main.909ea292.chunk.css",
-    "main.js": "/clubsc/static/js/main.0612a896.chunk.js",
-    "main.js.map": "/clubsc/static/js/main.0612a896.chunk.js.map",
+    "main.js": "/clubsc/static/js/main.88e5430f.chunk.js",
+    "main.js.map": "/clubsc/static/js/main.88e5430f.chunk.js.map",
     "runtime-main.js": "/clubsc/static/js/runtime-main.2c246712.js",
     "runtime-main.js.map": "/clubsc/static/js/runtime-main.2c246712.js.map",
     "static/js/2.deae695e.chunk.js": "/clubsc/static/js/2.deae695e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2c246712.js",
     "static/js/2.deae695e.chunk.js",
     "static/css/main.909ea292.chunk.css",
-    "static/js/main.0612a896.chunk.js"
+    "static/js/main.88e5430f.chunk.js"
   ]
 }
