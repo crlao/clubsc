@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Faker from 'faker';
+// import Faker from 'faker';
 import ContainerView from '../components/ContainerView';
 import SearchBar from '../components/SearchBar';
 
@@ -12,7 +12,7 @@ const LandingPage = () => {
     console.log(`Searching for ${term}...`)
 
     event.preventDefault();
-    window.history.pushState({}, '', '/search');
+    window.history.pushState({}, '', '/clubsc/search');
 
     const navEvent = new PopStateEvent('popstate');
     window.dispatchEvent(navEvent);

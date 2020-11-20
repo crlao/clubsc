@@ -1,8 +1,7 @@
 import  '../stylesheets/master.css'
 import  '../stylesheets/ContainerView.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Faker from 'faker';
+// import Faker from 'faker';
 import Navbar from './Navbar';
 import Link from './Link';
 
@@ -21,8 +20,8 @@ const ContainerView = (props) => {
             <p className = "mb-0">©clubSC 2020</p>
           </div>
           <div className = "navbar-nav d-flex flex-row justify-content-around">
-            <Link className = "nav-item nav-link mr-1" href = "/privacy">Privacy</Link>
-            <Link className = "nav-item nav-link ml-1 mr-sm-3" href = "/terms" >Terms</Link>
+            <Link className = "nav-item nav-link mr-1" href="/">Privacy</Link>
+            <Link className = "nav-item nav-link ml-1 mr-sm-3" href="/">Terms</Link>
           </div>
         </div>
       </footer>

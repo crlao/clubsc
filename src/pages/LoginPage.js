@@ -1,6 +1,7 @@
 import React from 'react';
 import ContainerView from '../components/ContainerView';
 import InputField from '../components/InputField';
+import Link from '../components/Link';
 
 const LoginPage = () => {
   return (
@@ -13,10 +14,10 @@ const LoginPage = () => {
             <InputField type="email" title="Email" />
             <InputField type="password" title="Password" />
             <div className="d-flex flex-row justify-content-between align-items-center">
-              <a className="mr-auto ml-1" href="#">
+              <Link className="mr-auto ml-1" href="/signup">
                 <span className="hide-mobile">Don't have an account?</span>
                 <span className="show-mobile">Sign Up</span>
-              </a>
+              </Link>
               <button className="btn btn-primary ml-auto mr-1" type="Submit">Submit</button>
             </div>
           </form>

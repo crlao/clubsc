@@ -1,7 +1,7 @@
 .card {
   box-sizing: border-box;
   min-height: 30vh;
-  max-height: 400px;
+  /* max-height: 400px; */
 }
 
 .card-img-top {

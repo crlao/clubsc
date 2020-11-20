@@ -11,7 +11,7 @@ const Navbar = (props) => {
     console.log(`Searching for ${term}...`)
 
     event.preventDefault();
-    window.history.pushState({}, '', '/search');
+    window.history.pushState({}, '', '/clubsc/search');
 
     const navEvent = new PopStateEvent('popstate');
     window.dispatchEvent(navEvent);
@@ -30,8 +30,8 @@ const Navbar = (props) => {
     if (!search){
       return(
         <div className="navbar-nav">
-          <Link className="nav-item nav-link" href="/about">About</Link>
-          <Link className="nav-item nav-link" href="/team">Dev Team</Link>
+          <Link className="nav-item nav-link" href="/">About</Link>
+          <Link className="nav-item nav-link" href="/">Dev Team</Link>
         </div>
       );
     } else{
